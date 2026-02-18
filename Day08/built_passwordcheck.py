@@ -1,4 +1,6 @@
-print("here we  built the password and also check password")
+# Day 08 : builte password strength checker
+
+print(" 👉 here we  built the password and also check password 👈 ")
 
 password  = input("Enter password:  ")
 
@@ -22,4 +24,5 @@ for ch in password:
 if len(password) >+ 8 and has_upper and has_digit and has_special:
     print("strong password")
 else:
-    print("weak password")     
+    print("weak password")
+
