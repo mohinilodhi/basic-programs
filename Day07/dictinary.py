@@ -31,3 +31,4 @@ print(student2["marks"])
 
 #WE CAN STORE ANY TYPE OF INFORMATION IN THIS MANNER
 
+
