@@ -37,5 +37,16 @@ while True:
     else:
         print("invalid chooice! please try again.")
     
-    
+import multiprocessing
+import requests
+
+def downloadFile(url, name):
+    response = requests.get(url)
+    open(f"{name}.jpg","wb").write(response.content)
+   
+
+url = "https://www.gstatic.com/webp/gallery3/2.png"
+
+for i in range(5):
+    downloadFile(url, i)   
     
