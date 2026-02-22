@@ -10,13 +10,13 @@ dic = {
     "student name" : "mohini lodhi  ",
     "student id "  : "0105AL2345",
     "student branch" : "AIML",
-    "student subject": "mathematices 1"
+    "student subject": "mathematices-1"
 }
 
-print(dic('student name'))
-print(dic('student id'))
-print(dic('student branch'))
-print(dic('student subject'))
+print(dic["student name"])
+print(dic["student id"])
+print(dic["student branch"])
+print(dic["student subject"])
 
 
 ## write about the info..
@@ -24,12 +24,13 @@ print(dic('student subject'))
 info = {'name':'karan','age':'19','eligiable':True}
 print(info)
 
-print( info.get('name'))
-print( info.get('age'))
-print( info.get('eligiable'))
-print( info.get('keys'))
+print(info.get('name'))
+print(info.get('age'))
+print(info.get('eligiable'))
+print(info.keys())  # instead of info.get('keys')
 
 ## with the help of dictonaries.
+
 dic = {
     344: "harry",
     56:"shubham",
@@ -38,11 +39,14 @@ dic = {
 }
 print(dic[344])
 
+print(dic.get[344]) ##return day
+
 # Defining a function.
 def greet(name):
     print(f"Hello, {name}!")
 
 # Calling the function.
 greet("mohini")
-greet("Python Learner")
-    
+greet("Python Learner")  
+
+
